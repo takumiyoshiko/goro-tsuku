@@ -1,17 +1,15 @@
 # ゴロツク
 
-数字から語呂わせを自動で生成するアプリです。
+数字から語呂わせを自動生成するアプリです。
+数字から語呂合わせの候補を列挙し、 bigram 言語モデルのスコアでランキングすることで語呂合わせを生成します。
 
 ## デモ
 
-ゴロツク: https://goro-tsuku.herokuapp.com/
+https://goro-tsuku.herokuapp.com/
 
 ## 使い方
+
 ```
 $ yarn install
-$ npm start
+$ yarn start
 ```
-
-## 実装
-
-Bi-gram言語モデルで語呂の良さを評価し、Beam Searchにより出力しています。
