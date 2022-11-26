@@ -5,7 +5,7 @@
 
 ## デモ
 
-https://goro-tsuku.herokuapp.com/
+https://goro-tsuku.vercel.app/
 
 ## 使い方
 
